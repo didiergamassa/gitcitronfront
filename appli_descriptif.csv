@@ -1,0 +1,91 @@
+Variable,Description
+AMT_CREDIT,"Final credit amount on the previous application. This differs from AMT_APPLICATION in a way that the AMT_APPLICATION is the amount for which the client initially applied for, but during our approval process he could have received different amount - AMT_CREDIT"
+AMT_INCOME_TOTAL,Income of the client
+AMT_REQ_CREDIT_BUREAU_QRT,Number of enquiries to Credit Bureau about the client 3 month before application (excluding one month before application)
+AMT_REQ_CREDIT_BUREAU_YEAR,Number of enquiries to Credit Bureau about the client one day year (excluding last 3 months before application)
+BUREAU_AMT_ANNUITY,Loan annuity
+BUREAU_AMT_CREDIT_MAX_OVERDUE,Maximal amount overdue on the Credit Bureau credit so far (at application date of loan in our sample)
+BUREAU_AMT_CREDIT_SUM,Current credit amount for the Credit Bureau credit
+BUREAU_AMT_CREDIT_SUM_DEBT,Current credit amount for the Credit Bureau credit
+BUREAU_AMT_CREDIT_SUM_LIMIT,Current credit amount for the Credit Bureau credit
+BUREAU_AMT_CREDIT_SUM_OVERDUE,Current credit amount for the Credit Bureau credit
+BUREAU_CREDIT_ACTIVE_Active,Status of the Credit Bureau (CB) reported credits
+BUREAU_CREDIT_ACTIVE_Closed,Status of the Credit Bureau (CB) reported credits
+BUREAU_CREDIT_ACTIVE_Sold,Status of the Credit Bureau (CB) reported credits
+BUREAU_CREDIT_CURRENCY_currency3,Recoded currency of the Credit Bureau credit
+BUREAU_CREDIT_TYPE_Carloan,"Type of Credit Bureau credit (Car, cash,...)"
+BUREAU_CREDIT_TYPE_Consumercredit,"Type of Credit Bureau credit (Car, cash,...)"
+BUREAU_CREDIT_TYPE_Creditcard,"Type of Credit Bureau credit (Car, cash,...)"
+BUREAU_CREDIT_TYPE_Microloan,"Type of Credit Bureau credit (Car, cash,...)"
+BUREAU_CREDIT_TYPE_Mortgage,"Type of Credit Bureau credit (Car, cash,...)"
+BUREAU_DAYS_CREDIT,How many days before current application did client apply for Credit Bureau credit
+BUREAU_DAYS_CREDIT_ENDDATE,How many days before current application did client apply for Credit Bureau credit
+CNT_CHILDREN,Number of children the client has
+CODE_GENDER_M,Gender of the client
+CREDIT_AMT_CREDIT_LIMIT_ACTUAL,Credit card limit during the month of the previous credit
+CREDIT_AMT_DRAWINGS_OTHER_CURRENT,Amount of other drawings during the month of the previous credit
+CREDIT_CNT_DRAWINGS_ATM_CURRENT,Number of drawings at ATM during this month on the previous credit
+CREDIT_CNT_DRAWINGS_OTHER_CURRENT,Number of other drawings during this month on the previous credit
+CREDIT_CNT_DRAWINGS_POS_CURRENT,Number of drawings for goods during this month on the previous credit
+CREDIT_NAME_CONTRACT_STATUS_Completed,"Status of Credit Bureau loan during the month (active, closed, DPD0-30, [C means closed, X means status unknown, 0 means no DPD, 1 means maximal did during month between 1-30, 2 means DPD 31-60, 5 means DPD 120+ or sold or written off ] )"
+CREDIT_NAME_CONTRACT_STATUS_Sentproposal,"Status of Credit Bureau loan during the month (active, closed, DPD0-30, [C means closed, X means status unknown, 0 means no DPD, 1 means maximal did during month between 1-30, 2 means DPD 31-60, 5 means DPD 120+ or sold or written off ] )"
+CREDIT_SK_DPD,DPD (days past due) during the month of previous credit
+Credit_as_percent_income,ratio of credit amount to total customer revenue 
+DAYS_BIRTH,Client's age in days at the time of application
+DAYS_ID_PUBLISH,How many days before the application did client change the identity document with which he applied for the loan
+DAYS_LAST_PHONE_CHANGE,How many days before application did client change phone
+DAYS_REGISTRATION,How many days before the application did client change his registration
+DEBT_CREDIT_RATIO,ratio of the total amount of debits in credits to the sum of credits
+DEF_30_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings defaulted on 30 DPD (days past due) 
+EXT_SOURCE_2,Normalized score from external data source
+EXT_SOURCE_3,Normalized score from external data source
+FLAG_DOCUMENT_13,Did client provide document 13
+FLAG_DOCUMENT_16,Did client provide document 16
+FLAG_DOCUMENT_18,Did client provide document 18
+FLAG_DOCUMENT_3,Did client provide document 3
+FLAG_OWN_CAR,Flag if the client owns a car
+FLAG_PHONE,"Did client provide home phone (1=YES, 0=NO)"
+FLAG_WORK_PHONE,"Did client provide home phone (1=YES, 0=NO)"
+HOUR_APPR_PROCESS_START,Approximately at what day hour did the client apply for the previous application
+INSTA_AMT_PAYMENT,What the client actually paid on previous credit on this installment
+INSTA_DAYS_INSTALMENT,When the installment of previous credit was supposed to be paid (relative to application date of current loan)
+INSTA_NUM_INSTALMENT_VERSION,Version of installment calendar (0 is for credit card) of previous credit. Change of installment version from month to month signifies that some parameter of payment calendar has changed
+NAME_CONTRACT_TYPE_Revolvingloans,Identification if loan is cash or revolving
+NAME_EDUCATION_TYPE_Incompletehigher,Level of highest education the client achieved
+NAME_EDUCATION_TYPE_Lowersecondary,Level of highest education the client achieved
+NAME_EDUCATION_TYPE_Secondarysecondaryspecial,Level of highest education the client achieved
+NAME_FAMILY_STATUS_Married,Family status of the client
+NAME_FAMILY_STATUS_Singlenotmarried,Family status of the client
+NAME_INCOME_TYPE_Stateservant,"Clients income type (businessman, working, maternity leave,)"
+NAME_INCOME_TYPE_Working,"Clients income type (businessman, working, maternity leave,)"
+OBS_30_CNT_SOCIAL_CIRCLE,How many observation of client's social surroundings with observable 30 DPD (days past due) default
+OCCUPATION_TYPE_Corestaff,What kind of occupation does the client have
+OCCUPATION_TYPE_Drivers,What kind of occupation does the client have
+OCCUPATION_TYPE_Laborers,What kind of occupation does the client have
+OCCUPATION_TYPE_LowskillLaborers,What kind of occupation does the client have
+OCCUPATION_TYPE_Salesstaff,What kind of occupation does the client have
+ORGANIZATION_TYPE_BusinessEntityType3,Type of organization where client works
+ORGANIZATION_TYPE_Construction,Type of organization where client works
+ORGANIZATION_TYPE_Military,Type of organization where client works
+ORGANIZATION_TYPE_School,Type of organization where client works
+ORGANIZATION_TYPE_Security,Type of organization where client works
+ORGANIZATION_TYPE_Selfemployed,Type of organization where client works
+ORGANIZATION_TYPE_Transporttype3,Type of organization where client works
+OVERDUE_DEBT_RATIO,ratio of the total customer overdue to the total customer debt
+PREV_AMT_CREDIT,Previous amount of credit
+PREV_AMT_DOWN_PAYMENT,Down payment on the previous application
+PREV_APP_COUNT,Previous applicant count
+PREV_CNT_PAYMENT,Term of previous credit at application of the previous application
+PREV_DAYS_FIRST_DRAWING,Relative to application date of current application when was the first disbursement of the previous application
+PREV_DAYS_FIRST_DUE,Relative to application date of current application when was the first due supposed to be of the previous application
+PREV_DAYS_LAST_DUE_1ST_VERSION,Relative to application date of current application when was the first due of the previous application
+PREV_DAYS_TERMINATION,Relative to application date of current application when was the expected termination of the previous application
+PREV_NFLAG_INSURED_ON_APPROVAL,Did the client requested insurance during the previous application
+PREV_RATE_DOWN_PAYMENT,Down payment rate normalized on previous credit
+PREV_SELLERPLACE_AREA,Selling area of seller place of the previous application
+REGION_POPULATION_RELATIVE,Normalized population of region where client lives (higher number means the client lives in more populated region)
+REGION_RATING_CLIENT,"Our rating of the region where client lives (1,2,3)"
+REG_CITY_NOT_LIVE_CITY,"Flag if client's permanent address does not match contact address (1=different, 0=same, at city level)"
+SK_ID_CURR,"ID of loan in our sample - one loan in our sample can have 0,1,2 or more related previous credits in credit bureau "
+TARGET,"Target variable (1 - client with payment difficulties: he/she had late payment more than X days on at least one of the first Y installments of the loan in our sample, 0 - all other cases)"
+WALLSMATERIAL_MODE_Panel,"Normalized information about building where the client lives, What is average (_AVG suffix), modus (_MODE suffix), median (_MEDI suffix) apartment size, common area, living area, age of building, number of elevators, number of entrances, state of the building, number of floor"
